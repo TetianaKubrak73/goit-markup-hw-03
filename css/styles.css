@@ -1,0 +1,223 @@
+/* web studio */
+
+:root {
+    --white: #FFFFFF;
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --iris: #4D5AE5;
+    --cloud: #F4F4FD;
+    --ocean: #404BBF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: var(--white,);
+    }
+
+.link {
+text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.header-logo {
+    color: var(--iris, #4D5AE5);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        }
+.header-logo-color {
+    color: var(--navyblue, #2E2F42);
+}
+
+.header-menu-link {
+    color: var(--navyblue, #2E2F42);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        }
+
+.header-menu-link:hover {
+    color: var(--ocean, #404BBF);
+}
+
+.header-menu-link:focus {
+    color: var(--ocean, #404BBF);
+}
+
+.adress {
+    font-style: normal;
+}
+.header-adress-link {
+    color: var(--slate, #434455);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-adress-link:hover {
+color: var(--ocean, #404BBF);
+}
+
+.header-adress-link:focus {
+    color:var(--ocean, #404BBF);
+}
+.hero {
+    background: var(--navyblue, #2E2F42);
+}
+.hero-titl {
+    color: var(--white, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+}
+
+.hero-button {
+    
+        background: var(--iris, #4D5AE5);
+            color: var(--white, #FFF);
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: var(--ocean, #404BBF);
+}
+
+.hero-button:focus {
+    background-color: var(--ocean, #404BBF);
+}
+
+.advantages-titl {
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
+
+.advantages-text {
+    color: var(--slate, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.services-titl {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-titl {
+    color: var(--navyblue, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-titl-three {
+    color: var(--navyblue, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        
+}
+.team-text {
+    color: var(--slate, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        
+}
+.footer-logo {
+    color:var(--iris, #4D5AE5);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.footer-logo-color {
+color: var(--cloud, #F4F4FD);
+}
+
+.footer {
+    background: var(--navyblue, #2E2F42);
+}
+
+.footer-text {
+    color: var(--cloud, #F4F4FD);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* P O R T F O L I O */
+
+
+.section button {
+        background-color: var(--cloud, #F4F4FD);
+        color: var(--iris, #4D5AE5);
+            text-align: center;
+            font-family: inherit;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+}
+
+.section button:hover {
+    background: var(--ocean, #404BBF);
+    color: var(--white, #FFFFFF);
+}
+
+.section button:focus {
+    background: var(--ocean, #404BBF);
+    color: var(--white, #FFFFFF);
+}
+
+.section-titl {
+    color: var(--navyblue, #2E2F42);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+.section-text {
+    color: var(--slate, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
