@@ -56,10 +56,6 @@ img {
 
 /* web studio */
 
-header {
-    /*padding-top: 24;
-    padding-bottom: 24;*/
-}
 
 .header-logo {
     color: var(--iris, #4D5AE5);
@@ -130,7 +126,7 @@ margin: 0 auto;
         line-height: 1.07;
         letter-spacing: 0.02em;
         width: 496px;
-        
+        margin: 0 auto;
         
 }
 .hero-button {
@@ -210,6 +206,7 @@ margin: 0 auto;
         text-transform: capitalize;
         padding-bottom: 72px;
         width: 323px;
+        margin: 0 auto;
 }
 
 .team {
@@ -234,6 +231,8 @@ margin: 0 auto;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         padding-bottom: 72px;
+        width: 162px;
+        margin: 0 auto;
 }
 
 .team-titl-three {
@@ -244,6 +243,8 @@ margin: 0 auto;
         letter-spacing: 0.02em;
         padding-bottom: 8px;
         text-align: center;
+        width: 134px;
+        margin: 0 auto;
 }
 .team-text {
     color: var(--slate, #434455);
@@ -252,7 +253,8 @@ margin: 0 auto;
         letter-spacing: 0.02em;
         padding-bottom: 32px;
         text-align: center;
-        
+        width: 128px;
+        margin: 0 auto;
 }
 
 .footer {
