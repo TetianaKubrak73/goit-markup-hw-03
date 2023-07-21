@@ -377,9 +377,9 @@ color: var(--cloud, #F4F4FD);
     color: var(--white, #FFFFFF);
 }
 
-.section-two-list {
+/*.section-two-list {
     
-}
+}*/
 .cart {
     display: flex;
     flex-wrap: wrap;
@@ -391,11 +391,11 @@ color: var(--cloud, #F4F4FD);
 }
 
 
-.section-link {
-    /*width: 360px;
-    height: 300px;*/
+/*.section-link {
+    width: 360px;
+    height: 300px;
     
-}
+}*/
 .section-titl {
     color: var(--navyblue, #2E2F42);
         font-size: 20px;
