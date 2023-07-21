@@ -1,5 +1,3 @@
-
-
 :root {
     --white: #FFFFFF;
     --navyblue: #2E2F42;
@@ -58,10 +56,13 @@ img {
 
 /* web studio */
 
+.header {
+border-bottom: 1px solid var(--cornflower, #E7E9FC);
+}
 .header-container {
 display: flex;
 align-items: center;
-border-bottom: 1px solid var(--cornflower,#E7E9FC);
+
 }
 
 .header-navigation {
@@ -138,7 +139,7 @@ color:var(--ocean, #404BBF);
 .hero {
 background: var(--navyblue, #2E2F42);
 margin: 0 auto;
-padding-bottom: 292px;
+padding-bottom: 188px;
 padding-top: 188px;
 }
 
@@ -149,7 +150,7 @@ padding-top: 188px;
         font-weight: 700;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        width: 496px;
+        max-width: 496px;
         margin: 0 auto;
         
         
@@ -168,10 +169,13 @@ padding-top: 188px;
             padding: 16px 32px;
             gap: 10px;
             border-radius: 4px;
+            border: none;
             background: var(--iris, #4D5AE5);
             box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
             margin: 0 auto;
             margin-top: 48px;
+            min-width: 169px;
+            height: 56px;
             
 }
 
@@ -196,6 +200,7 @@ padding-top: 188px;
 
 .advantages-item {
 width: calc((100% - 72px) / 4);
+border: 1px solid #000;
 }
 .advantages-titl {
     color: var(--navyblue, #2E2F42);
@@ -227,11 +232,12 @@ width: calc((100% - 72px) / 4);
     }
 
 .services-item {
-    padding-right: 24px;
+    margin-right: 24px;
+    width: calc((100% - 48px) / 3);
     
 }
 .services-item:last-child {
-    padding-right: 0;
+    margin-right: 0;
 }
 .services-titl {
     color: var(--navyblue, #2E2F42);
@@ -241,31 +247,30 @@ width: calc((100% - 72px) / 4);
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-bottom: 72px;
         width: 323px;
         margin: 0 auto;
+        margin-bottom: 72px;
 }
 
 .team {
     background-color: #F4F4FD;
     padding-bottom: 120px;
+    padding-top: 120px;
     display: flex;
-}
-.team-cart {
-    display: flex;
-}
-.team-item {
-    background-color: #FFFFFF;
-    padding-right: 24px;
-}
-
-.team-item:last-child {
-    padding-right: 0;
 }
 
 .team-list {
     display: flex;
+    gap: 24px;
 }
+
+.team-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    
+}
+
 .team-titl {
     color: var(--navyblue, #2E2F42);
         text-align: center;
@@ -274,29 +279,31 @@ width: calc((100% - 72px) / 4);
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        padding-bottom: 72px;
         width: 162px;
         margin: 0 auto;
+        margin-bottom: 72px;
 }
-
+ .team-cart {
+    padding-top: 32px;
+    padding-bottom: 32px;
+ }
 .team-titl-three {
     color: var(--navyblue, #2E2F42);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        padding-bottom: 8px;
         text-align: center;
         width: 134px;
         margin: 0 auto;
-        padding-top: 32px;
+        margin-bottom: 8px;
+        
 }
 .team-text {
     color: var(--slate, #434455);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding-bottom: 32px;
         text-align: center;
         width: 128px;
         margin: 0 auto;
@@ -304,7 +311,8 @@ width: calc((100% - 72px) / 4);
 
 .footer {
     background: var(--navyblue, #2E2F42);
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo {
     display: inline-block;
@@ -315,8 +323,7 @@ width: calc((100% - 72px) / 4);
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-bottom: 17.5px;
-        padding-top: 101.5px;
+        margin-bottom: 16px;
         width: 71px;
 }
 .footer-logo-color {
@@ -329,16 +336,20 @@ color: var(--cloud, #F4F4FD);
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
-        padding-bottom: 100px;
+        
 }
 
 /* P O R T F O L I O */
 
+.section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .section-list {
     display: flex;
     justify-content: center;
-    
-
+    gap: 24px;
+    margin-bottom: 72px;
 }
 .section button {
         background-color: var(--cloud, #F4F4FD);
@@ -350,56 +361,51 @@ color: var(--cloud, #F4F4FD);
             line-height: 1.5;
             letter-spacing: 0.04em;
             cursor: pointer;
-            display: blok;
+            display: flex;
                 padding: 12px 24px;
                 justify-content: center;
                 align-items: center;
                 border-radius: 4px;
                 border: 1px solid var(--cornflower, #E7E9FC);
                 background: var(--cloud, #F4F4FD);
-                margin-top: 96px;
-                margin-bottom: 72px;
-                margin-right: 24px;
+                
+                
 }
-
-.section button:last-child {
-    margin-right: 24px;
-}
-
 
 .section button:hover {
     background: var(--ocean, #404BBF);
     color: var(--white, #FFFFFF);
+    border: 1px solid transparent;
 }
 
 .section button:focus {
     background: var(--ocean, #404BBF);
     color: var(--white, #FFFFFF);
+    border: 1px solid transparent;
 }
 
 .section-two-list {
-    
+    display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px
 }
 
 .section-two-item {
     width: calc((100% - 48px) / 3);
 }
 .cart {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 48px 24px;
+    
     padding-bottom: 120px;
     border-bottom: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
-   
 }
 
-
-/*.section-link {
-    width: 360px;
-    height: 300px;
-    
-}*/
+.cart-container {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
 .section-titl {
     color: var(--navyblue, #2E2F42);
         font-size: 20px;
@@ -407,7 +413,7 @@ color: var(--cloud, #F4F4FD);
         line-height: 1.2;
         letter-spacing: 0.02em;
         width: 290px;
-        padding-top: 32px;
+        margin-bottom: 8px;
 }
 .section-text {
     color: var(--slate, #434455);
@@ -415,7 +421,7 @@ color: var(--cloud, #F4F4FD);
         line-height: 1.5;
         letter-spacing: 0.02em;
         height: 30px;
-        padding-bottom: 32px;
+        
         
 }
 
