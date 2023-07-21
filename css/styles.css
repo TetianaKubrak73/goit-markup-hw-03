@@ -377,9 +377,13 @@ color: var(--cloud, #F4F4FD);
     color: var(--white, #FFFFFF);
 }
 
-/*.section-two-list {
+.section-two-list {
     
-}*/
+}
+
+.section-two-item {
+    width: calc((100% - 48px) / 3);
+}
 .cart {
     display: flex;
     flex-wrap: wrap;
@@ -387,7 +391,7 @@ color: var(--cloud, #F4F4FD);
     padding-bottom: 120px;
     border: 1px solid var(--cornflower, #E7E9FC);
     background: var(--white, #FFF);
-   /* width: calc((100% - 48px) / 3);*/
+   
 }
 
 
@@ -412,5 +416,6 @@ color: var(--cloud, #F4F4FD);
         letter-spacing: 0.02em;
         height: 30px;
         padding-bottom: 32px;
+        
 }
 
